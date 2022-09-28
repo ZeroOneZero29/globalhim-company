@@ -1,5 +1,5 @@
 .product {
-    background: url('../img/bg_product.svg') center center repeat;
+    background: url('./img/bg_product.svg') center center repeat;
     font-family: 'Montserrat';
     color: #4B2DA6;
 }
