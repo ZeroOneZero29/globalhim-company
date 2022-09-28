@@ -1,0 +1,73 @@
+@media (max-width: 826px) {
+    .contact__mobile {
+        display: none;
+    }
+    .contact__icon {
+        padding-right: clamp(0.938rem, -1.295rem + 11.16vw, 4.063rem);
+    }
+}
+
+@media (max-width: 768px) {
+    .header__menu {
+        display: none;
+    }
+    .header__logo_text {
+        font-size: clamp(1.125rem, 0.768rem + 1.79vw, 1.625rem);
+    }
+    .header__logo_img {
+        width: clamp(2.5rem, 2.054rem + 2.23vw, 3.125rem);
+        height: clamp(2.5rem, 2.054rem + 2.23vw, 3.125rem);
+    }
+
+    .footer__contact_email {
+        position: absolute;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 998px){
+    .about-us__botton-container {
+        flex-direction: column;
+        align-self: center;
+    }
+}
+
+@media (max-width: 1400px) {
+    .swiper-button-prev {
+        left: 100px;
+    }
+
+    .slider__btn {
+        top: -300px;
+        right: 0;
+        width: auto;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer__contact_email {
+        position: absolute;
+        bottom: 30px;
+    }
+    .footer__contact {
+        position: absolute;
+        top: 160px;
+        left: 10px;
+    }
+
+    .footer__year {
+        position: absolute;
+        top: 170px;
+    }
+    .producing {
+        position: absolute;
+        top: 220px;
+    } 
+    .footer__logo {
+        position: absolute;
+        left: 5px;
+    }   
+}
+
+
