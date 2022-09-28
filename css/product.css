@@ -1,5 +1,5 @@
 .product {
-    background: url('./img/bg_product.svg') center center repeat;
+    background: url('../img/bg_product.svg') center center repeat;
     font-family: 'Montserrat';
     color: #4B2DA6;
 }
@@ -40,7 +40,7 @@
     height: 60px;
     border-radius: 50%;
     background-image: 
-    url('./img/icon/arrow_btn.svg'),
+    url('../img/icon/arrow_btn.svg'),
     linear-gradient(to top,rgba(114, 83, 209, 0.56), rgba(114, 83, 209, 0.56));
     background-position: 45% center;
     background-repeat: no-repeat;
