@@ -6,7 +6,7 @@
 .main__background-image{
     background-image: 
         linear-gradient(to top, rgba(52, 32, 133, 0.32), rgba(52, 32, 133, 0.32)),
-        url('../img/01.jpg');
+        url('./img/01.jpg');
     background-repeat: no-repeat;
     max-width: 100%;
     background-size: 100%;
